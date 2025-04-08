@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Gift</title>
+    <style>
+        .header{
+            color: white;
+        }
+        .navbar{
+            background-color: #3590a5;
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+            padding: 1rem;
+        }
+        .image{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+        .nav-links{
+            list-style: none;
+            display: flex;
+        }
+        .nav-links li{
+            margin: 0 1rem;
+        }
+        .nav-links a{
+            text-decoration: none;
+            transition: color 0.3s;
+            color: white;
+        }
+        .nav-links a:hover{
+            color: #bbb3b2;
+        }
+        .nav-buttons{
+            display: flex;
+            display: block ;
+            block-size: 1rem;
+        }
+        .nav-buttons a{
+            text-decoration: none;
+            transition: color 0.3s;
+            background-color: rgb(25, 31, 30);
+            color: white;
+            padding: 11px;
+            margin: 0 1rem;
+        }
+        .nav-buttons a:hover{
+            color:  #3590a5;
+        }
+        .main{
+            background-color: rgb(243, 243, 243);
+        }
+        .product-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product-card{
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+            width: calc(33.333% - 40px);
+        }
+        .product-card h2{
+            font-size: 1.2em;
+        }
+        .product-card p{
+            margin: 5px 0;
+        }
+        .rating{
+            color: #ffcc00;
+        }
+        .delivery{
+            font-weight: bold;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+    </style> 
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img class="image" src="Abstract Green Healthy Life Free Logo.jpg"/>
+            <ul class="nav-links">
+                <li style="padding: 11px;">
+                    <a href="#home"> Home</a>
+                </li>
+                <li style="padding: 11px;">
+                    <a href="#about"> About</a>
+                </li>
+                <li style="padding: 11px;">
+                    <a href="#services"> Services</a>
+                </li>
+                <li style="padding: 11px;">
+                    <a href="#contact"> Contact</a>
+                </li>
+            </ul>
+            <div class="nav-buttons">
+                <a class="button" href="#login">Sign Up</a>
+                <a class="button" href="#login">Log In</a>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="product-container">
+            <div class="product-card">
+                <img src="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt5prodlp/products/p-the-prosperous-266188-m.jpg"/>
+                <h2>The Prosperity Duet</h2>
+                <p>₹ 2895</p>
+                <div class="rating">
+                    <span>4.4</span>
+                    <span>⭐ (14)</span>
+                </div>
+                <p class="delivery">90-Min Delivery</p>
+            </div>
+            <div class="product-card">
+                <img src="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt5prodlp/products/p-bow-of-abundance-302326-m.jpg">
+                <h2>Bow of Abundance</h2>
+                <p>₹ 2895</p>
+                <div class="rating">
+                    <span>4.4</span>
+                    <span>⭐ (14)</span>
+                </div>
+                <p class="delivery">Same Day Delivery</p>
+            </div>
+            <div class="product-card">
+                <img src="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt5prodlp/products/p-rhythm-of-calathea-269072-m.jpg">
+                <h2>Rhythm of Calathea</h2>
+                <p>₹ 2895</p>
+                <div class="rating">
+                    <span>4.4</span>
+                    <span>⭐ (14)</span>
+                </div>
+                <p class="delivery">Same Day Delivery</p>
+            </div>
+            <div class="product-card">
+                <img src="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt5prodlp/products/p-sunny-dreams-275557-m.jpg">
+                <h2>Sunny Dreams</h2>
+                <p>₹ 2895</p>
+                <div class="rating">
+                    <span>4.4</span>
+                    <span>⭐ (14)</span>
+                </div>
+                <p class="delivery">Same Day Delivery</p>
+            </div>
+            <div class="product-card">
+                <img src="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt5prodlp/products/p-a-walk-in-the-garden-basket-132899-m.jpg">
+                <h2>A walk in the garden basket</h2>
+                <p>₹ 2895</p>
+                <div class="rating">
+                    <span>4.5</span>
+                    <span>⭐ (14)</span>
+                </div>
+                <p class="delivery">Same Day Delivery</p>
+            </div>
+            <div class="product-card">
+                <img src="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt5prodlp/products/p-guardian-of-wisdom-302330-m.jpg">
+                <h2>guardian-of-wisdom</h2>
+                <p>₹ 2895</p>
+                <div class="rating">
+                    <span>4.8</span>
+                    <span>⭐ (14)</span>
+                </div>
+                <p class="delivery">Same Day Delivery</p>
+            </div>
+            <div class="product-card">
+                <img src="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt5prodlp/products/p-wishes-from-nature-275558-m.jpg">
+                <h2>Marigold Mahal</h2>
+                <p>₹ 2895</p>
+                <div class="rating">
+                    <span>5.0</span>
+                    <span>⭐ (14)</span>
+                </div>
+                <p class="delivery">90-Min Delivery</p>
+            </div>
+            <div class="product-card">
+                <img src="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt5prodlp/products/p-the-caregiver-206794-m.jpg">
+                <h2>kind like kalanchoe</h2>
+                <p>₹ 2895</p>
+                <div class="rating">
+                    <span>4.4</span>
+                    <span>⭐ (14)</span>
+                </div>
+                <p class="delivery">90-Min Delivery</p>
+            </div>
+            <div class="product-card">
+                <img src="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt5prodlp/products/p-green-virtue-266187-m.jpg">
+                <h2>golden gem</h2>
+                <p>₹ 2895</p>
+                <div class="rating">
+                    <span>4.4</span>
+                    <span>⭐ (14)</span>
+                </div>
+                <p class="delivery">90-Min Delivery</p>
+            </div>
+            <div class="product-card">
+                <img src="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt5prodlp/products/p-imperial-indulgence-334532-m.jpg"/>
+                <h2>Ethereal glow</h2>
+                <p>₹ 1745</p>
+                <div class="rating">
+                    <span>4.4 </span>
+                    <span>⭐ (14)</span>
+                </div>
+                <p class="delivery">90-Min Delivery</p>
+            </div>
+            <div class="product-card">
+                <img src="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt5prodlp/products/p-prosperous-flame-335104-m.jpg"/>
+                <h2>prosperous flame</h2>
+                <p>₹ 1545</p>
+                <div class="rating">
+                    <span>4.4</span>
+                    <span>⭐ (14)</span>
+                </div>
+                <p class="delivery">Same Day Delivery</p>
+            </div>
+            <div class="product-card">
+                <img src="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt5prodlp/products/p-ethereal-glow-335225-m.jpg"/>
+                <h2>imperial indulgence</h2>
+                <p>₹ 2945</p>
+                <div class="rating">
+                    <span>4.9</span>
+                    <span>⭐ (14)</span>
+                </div>
+                <p class="delivery">90-Min Delivery</p>
+            </div>
+            <div class="product-card">
+                <img src="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt5prodlp/products/p-marigold-mahal-334517-m.jpg"/>
+                <h2>Marigold Mahal</h2>
+                <p>₹ 3095</p>
+                <div class="rating">
+                    <span>4.9</span>
+                    <span>⭐ (14)</span>
+                </div>
+                <p class="delivery">Same Day Delivery</p>
+            </div>
+            <div class="product-card">
+                <img src="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt5prodlp/products/p-kind-like-kalanchoe-281138-m.jpg"/>
+                <h2>kind like kalanchoe</h2>
+                <p>₹ 1845</p>
+                <div class="rating">
+                    <span>4.9</span>
+                    <span>⭐ (14)</span>
+                </div>
+                <p class="delivery">90-Min Delivery</p>
+            </div>
+            <div class="product-card">
+                <img src="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt5prodlp/products/p-golden-gem-335109-m.jpg"/>
+                <h2>golden gem</h2>
+                <p>₹ 1195</p>
+                <div class="rating">
+                    <span>4.9</span>
+                    <span>⭐ (14)</span>
+                </div>
+                <p class="delivery">Same Day Delivery</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
